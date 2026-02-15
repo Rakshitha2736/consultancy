@@ -1,0 +1,24 @@
+.requirement-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .requirement-form {
+    padding: 1rem;
+  }
+}

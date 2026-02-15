@@ -1,0 +1,2 @@
+cd d:\Consultancy\standard-engineering\backend
+npm install && npm run dev
